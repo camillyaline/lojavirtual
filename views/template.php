@@ -70,7 +70,119 @@
                 </div>
             </div>
         </header>
+        <!-- -->
         
+        <div class="categoryarea">
+            <nav class="navbar">
+                <div class="container">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" datatoggle="dropdown" href="#">
+                                Select Category
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Category X</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- Filtro de produtos -->
+        
+        <selection>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <aside> <!-- aside = menu lateral --> 
+                            <h1>Filter</h1>
+                            <div class="filterarea">
+                
+                            </div>
+                            
+                            <div class="widget">
+                                <h1>Featured Products</h1>
+                                <div class="widget_body">
+                                    ...
+                                </div>
+                            </div>
+                        </aside>
+                        <div class="col-sm-9">
+                            <?php $this->loadViewInTemplate($viewName, $viewData); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </selection>
+        
+        <!-- Rodapé -->
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="widget">
+                            <h1>Featured Products</h1>
+                            <div class="widget_body"> 
+                                ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="widget">
+                            <h1>On-Sale Products</h1>
+                            <div class="widget_body"> 
+                                ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="widget">
+                            <h1>Top Rated Products</h1>
+                            <div class="widget_body"> 
+                                ...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subarea">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding">
+                            <form method="POST">
+                                <input class="subemail" name="email" 
+                                       placeholder="Subscribe to our newsletter" />
+                                <input type="submit" value="Subscribe" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="<?php echo BASE_URL; ?>">
+                                <img width="150" src="<?php echo BASE_URL; ?>asserts/images/logo.png" />
+                            </a>
+                            <br/>
+                            <br/>
+                            <strong>Slogan da Loja Virtual</strong>
+                            <br/>
+                            <br/>
+                            Endereço da Loja
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
         
         
         <!--scripts-->
