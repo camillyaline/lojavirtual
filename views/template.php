@@ -178,10 +178,61 @@
                             <br/>
                             Endereço da Loja
                         </div>
+                        <div class="col-sm-8 linkgroups">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h3>Category</h3>
+                                    <ul> <!-- por os links-->
+                                        <li><a href="#">Category X</a></li>
+                                        <li><a href="#">Category X</a></li>
+                                        <li><a href="#">Category X</a></li>
+                                        <li><a href="#">Category X</a></li>
+                                        <li><a href="#">Category X</a></li>
+                                        <li><a href="#">Category X</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h3>Information</h3>
+                                    <ul> <!-- por os links-->
+                                        <li><a href="#">Menu 1</a></li>
+                                        <li><a href="#">Menu 2</a></li>
+                                        <li><a href="#">Menu 3</a></li>
+                                        <li><a href="#">Menu 4</a></li>
+                                        <li><a href="#">Menu 5</a></li>
+                                        <li><a href="#">Menu 6</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h3>Information</h3>
+                                    <ul> <!-- por os links-->
+                                        <li><a href="#">Menu 1</a></li>
+                                        <li><a href="#">Menu 2</a></li>
+                                        <li><a href="#">Menu 3</a></li>
+                                        <li><a href="#">Menu 4</a></li>
+                                        <li><a href="#">Menu 5</a></li>
+                                        <li><a href="#">Menu 6</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+            <div class="capywright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">&copy; <span>Loja Virtual</span> - Todos os direitos resercados.</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="payments">
+                            <img src="?php echo BASE_URL; ?>asserts/images/visa.png" />
+                            <img src="?php echo BASE_URL; ?>asserts/images/visa.png" />
+                            <img src="?php echo BASE_URL; ?>asserts/images/visa.png" />
+                            <img src="?php echo BASE_URL; ?>asserts/images/visa.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         
         
